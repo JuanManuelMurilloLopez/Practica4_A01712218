@@ -1,0 +1,30 @@
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
+</head>
+<h1>Calculadora</h1>
+<div id="containter">  <form name="calculadora">
+  <input type="textfield" name="respuesta" value="" id="texto">
+  <br>
+  <input class="numero" type="button" value="1" onClick="document.calculadora.respuesta.value+='1'">
+  <input class="numero" type="button" value="2" onClick="document.calculadora.respuesta.value+='2'">
+  <input class="numero" type="button" value="3" onClick="document.calculadora.respuesta.value+='3'">
+  <input class="operador" type="button" value="+" onClick="document.calculadora.respuesta.value+='+'">
+  <br>
+  <input class="numero" type="button" value="4" onClick="document.calculadora.respuesta.value+='4'">
+  <input class="numero" type="button" value="5" onClick="document.calculadora.respuesta.value+='5'">
+  <input class="numero" type="button" value="6" onClick="document.calculadora.respuesta.value+='6'">
+  <input class="operador" type="button" value="-" onClick="document.calculadora.respuesta.value+='-'">
+  <br>
+  <input class="numero" type="button" value="7" onClick="document.calculadora.respuesta.value+='7'">
+  <input class="numero" type="button" value="8" onClick="document.calculadora.respuesta.value+='8'">
+  <input class="numero" type="button" value="9" onClick="document.calculadora.respuesta.value+='9'">
+  <input class="operador" type="button" value="*" onClick="document.calculadora.respuesta.value+='*'">
+  <br>
+  <input class="numero" type="button" value="0" onClick="document.calculadora.respuesta.value+='0'">
+  <input class="operador" type="reset" value="c">
+  <input class="operador" type="button" value="/" onClick="document.calculadora.respuesta.value+='/'">
+  <input class="operador" id="igual" type="button" value="=" onClick="document.calculadora.respuesta.value=eval(document.calculadora.respuesta.value)">
+  </form></div>

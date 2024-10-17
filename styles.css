@@ -1,0 +1,59 @@
+.numero, .operador{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color:white;
+}
+
+.numero:hover{
+    background-color: rgb(15, 150, 230);
+}
+
+.operador:hover{
+    background-color: rgb(200, 15, 15);
+}
+
+.operador{
+    background-color:indianred;
+    
+}
+
+.numero{
+    background-color: rgb(115, 199, 230);
+}
+
+#texto{
+    border-radius: 5px;
+    background-color: #E2F1E7;
+    width: 480;
+    font-size: 40px;
+    padding: 10px;
+}
+
+input{
+    width: 120;
+    height: 120;
+}
+
+
+#containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form{
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
